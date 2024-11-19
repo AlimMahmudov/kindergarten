@@ -1,0 +1,113 @@
+.Filials {
+  background: #7197ff;
+  padding: 100px;
+  font-family: sans-serif;
+
+  .filials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    .filials_text {
+      h1 {
+        font-size: 36px;
+        color: #ffffff;
+      }
+    }
+    .block {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      .box {
+        background: #ffffff;
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+        border: solid 3px #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        transition: all 0.3s;
+
+        .box_text {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+
+          h1 {
+            font-size: 20px;
+            color: #0059ff;
+          }
+
+          p {
+            font-size: 16px;
+            color: #0059ff;
+          }
+        }
+        .user {
+          background: #0059ff;
+          color: #ffffff;
+          padding: 10px;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          border-radius: 30px;
+          gap: 30px;
+
+          img {
+            border-radius: 50%;
+            width: 70px;
+          }
+          h1 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 16px;
+          }
+        }
+        .gis {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          gap: 10px;
+
+          .addres {
+            background: #0059ff;
+            color: #ffffff;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            border-radius: 30px;
+            width: 100%;
+            gap: 10px;
+          }
+
+          .watsapp {
+            h2 {
+              background: #0059ff;
+              color: #69ff2e;
+              padding: 12px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              font-size: 44px;
+              border-radius: 50%;
+            }
+          }
+
+          h1 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .box:hover {
+      transform: scale(1.02);
+      transition: all 0.3s;
+    }
+  }
+}

@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import scss from "./Message.module.scss";
+import Image from "next/image";
+import gis from "@/shared/images/gis.png";
 
 const Message = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -48,10 +50,7 @@ const Message = () => {
                     className={scss.addres}
                     onClick={() => setActiveTab(index)}
                   >
-                    <img
-                      src="https://genius-school.kg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2gis.6cd4eff1.png&w=48&q=75"
-                      alt=""
-                    />
+                    <Image src={gis} alt="" />
                     <h1>{tab.title}</h1>
                   </div>
                 ))}

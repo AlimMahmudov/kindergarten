@@ -1,6 +1,10 @@
 import React from "react";
 import scss from "./Filials.module.scss";
 import { IoLogoWhatsapp } from "react-icons/io";
+import teacher from "@/shared/images/1033302.png";
+import gis from "@/shared/images/gis.png";
+
+import Image from "next/image";
 
 const Filials = () => {
   return (
@@ -17,10 +21,8 @@ const Filials = () => {
                 <p>+996 704 42 8002</p>
               </div>
               <div className={scss.user}>
-                <img
-                  src="https://genius-school.kg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdirector3.a222572e.png&w=96&q=75"
-                  alt=""
-                />
+                <Image src={teacher} alt="" />
+
                 <div className={scss.user_text}>
                   <p>Директор садика</p>
                   <h1>
@@ -29,10 +31,7 @@ const Filials = () => {
                 </div>
               </div>
               <div className={scss.user}>
-                <img
-                  src="https://genius-school.kg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdirector3.a222572e.png&w=96&q=75"
-                  alt=""
-                />
+                <Image src={teacher} alt="" />
                 <div className={scss.user_text}>
                   <p>Директор садика</p>
                   <h1>
@@ -42,10 +41,7 @@ const Filials = () => {
               </div>
               <div className={scss.gis}>
                 <div className={scss.addres}>
-                  <img
-                    src="https://genius-school.kg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2gis.6cd4eff1.png&w=48&q=75"
-                    alt=""
-                  />
+                  <Image src={gis} alt="" />
                   <h1>Ул.Салиева, 181</h1>
                 </div>
                 <div className={scss.watsapp}>
@@ -62,10 +58,7 @@ const Filials = () => {
                 <p>+996 704 42 8002</p>
               </div>
               <div className={scss.user}>
-                <img
-                  src="https://genius-school.kg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdirector3.a222572e.png&w=96&q=75"
-                  alt=""
-                />
+                <Image src={teacher} alt="" />
                 <div className={scss.user_text}>
                   <p>Директор садика</p>
                   <h1>
@@ -74,10 +67,7 @@ const Filials = () => {
                 </div>
               </div>
               <div className={scss.user}>
-                <img
-                  src="https://genius-school.kg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdirector3.a222572e.png&w=96&q=75"
-                  alt=""
-                />
+                <Image src={teacher} alt="" />
                 <div className={scss.user_text}>
                   <p>Директор садика</p>
                   <h1>
@@ -87,10 +77,7 @@ const Filials = () => {
               </div>
               <div className={scss.gis}>
                 <div className={scss.addres}>
-                  <img
-                    src="https://genius-school.kg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2gis.6cd4eff1.png&w=48&q=75"
-                    alt=""
-                  />
+                  <Image src={gis} alt="" />
                   <h1>Ул.Гагарина,135</h1>
                 </div>
                 <div className={scss.watsapp}>
@@ -107,10 +94,7 @@ const Filials = () => {
                 <p>+996 704 42 8002</p>
               </div>
               <div className={scss.user}>
-                <img
-                  src="https://genius-school.kg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdirector3.a222572e.png&w=96&q=75"
-                  alt=""
-                />
+                <Image src={teacher} alt="" />
                 <div className={scss.user_text}>
                   <p>Директор садика</p>
                   <h1>
@@ -119,10 +103,7 @@ const Filials = () => {
                 </div>
               </div>
               <div className={scss.user}>
-                <img
-                  src="https://genius-school.kg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdirector3.a222572e.png&w=96&q=75"
-                  alt=""
-                />
+                <Image src={teacher} alt="" />
                 <div className={scss.user_text}>
                   <p>Директор садика</p>
                   <h1>
@@ -132,10 +113,7 @@ const Filials = () => {
               </div>
               <div className={scss.gis}>
                 <div className={scss.addres}>
-                  <img
-                    src="https://genius-school.kg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2gis.6cd4eff1.png&w=48&q=75"
-                    alt=""
-                  />
+                  <Image src={gis} alt="" />
                   <h1>Ул.Садыгалиева,30</h1>
                 </div>
                 <div className={scss.watsapp}>

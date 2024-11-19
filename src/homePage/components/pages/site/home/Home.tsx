@@ -7,7 +7,7 @@ const Home = () => {
       <div className="container">
         <div className={scss.home}>
           <div className={scss.home_text}>
-            <h1>Мы ждем вас в ДЕТСКИЙ САД "УМНАЯ ПЛАНЕТА"</h1>
+            <h1>Мы ждем вас в ДЕТСКИЙ САД УМНАЯ ПЛАНЕТА</h1>
             <p></p>
             <button></button>
           </div>

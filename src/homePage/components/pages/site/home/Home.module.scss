@@ -1,4 +1,16 @@
 .Home {
   .home {
+    display: flex;
+    justify-content: space-between;
+
+    .img {
+      background-image: url("../../../../../shared/images/Benefits of creative art activities for kids _ Abrakadoodle.jpeg");
+      background-size: cover;
+      height: 600px;
+      width: 600px;
+    }
+
+    .text {
+    }
   }
 }

@@ -21,8 +21,10 @@
       .box {
         width: 350px;
         height: 250px;
-        background: #5085e7;
-        color: #ffffff;
+        // background: #5085e7;
+        background: #b4b4b4;
+        // color: #ffffff;
+        color: #000;
         padding: 10px;
         border-radius: 20px;
         padding: 20px;
@@ -32,7 +34,7 @@
         gap: 10px;
         transition: all 0.3s;
         h2 {
-          background: #7fa0fc;
+          background: #ffffff;
           padding: 10px;
           display: flex;
           align-items: center;
@@ -52,6 +54,7 @@
       transform: scale(1.02);
       transition: all 0.3s;
       background: #0059ff;
+      color: #ffffff;
     }
   }
 }

@@ -1,0 +1,37 @@
+#Header {
+  padding: 20px;
+  background: #0059ff;
+  font-family: sans-serif;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+    .nav {
+      display: flex;
+      gap: 20px;
+      button {
+        width: 120px;
+        height: 50px;
+        border-radius: 30px;
+        border: solid 3px #ffd000;
+        background: #0059ff;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 800;
+        transition: 0.3s;
+      }
+
+      button:hover {
+        background: #ffd000;
+        transition: 0.3s;
+        border: solid 3px #ffffff;
+      }
+    }
+  }
+}

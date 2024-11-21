@@ -1,0 +1,24 @@
+.Slider {
+  width: 100%;
+  padding: 20px 0;
+
+  .swiper {
+    width: 100%;
+    height: 400px;
+
+    .swiper-pagination-bullet {
+      background-color: #fff;
+      opacity: 0.8;
+
+      &.swiper-pagination-bullet-active {
+        background-color: #007bff;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

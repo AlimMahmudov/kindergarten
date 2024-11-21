@@ -8,7 +8,9 @@ const About = () => {
         <div className={scss.about}>
           <div className={scss.text}>
             <h1>О нашей садике</h1>
-            <p>"Гениус.Кейджи" – частная общеобразовательная школа.</p>
+            <p>
+              &quot;Гениус.Кейджи&quot; – частная общеобразовательная школа.
+            </p>
             <button>узнать больше</button>
           </div>
           <div className={scss.block}>

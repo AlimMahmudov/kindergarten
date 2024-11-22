@@ -1,6 +1,6 @@
 #Header {
   padding: 20px;
-  background: #0059ff;
+  background: #ff8800;
   font-family: sans-serif;
   .header {
     display: flex;
@@ -19,8 +19,9 @@
         width: 120px;
         height: 50px;
         border-radius: 30px;
-        border: solid 3px #ffd000;
-        background: #0059ff;
+        border: solid 3px #ffffff;
+        // background: #0059ff;
+        background: none;
         color: #ffffff;
         font-size: 20px;
         font-weight: 800;
@@ -32,6 +33,19 @@
         transition: 0.3s;
         border: solid 3px #ffffff;
       }
+    }
+
+    button {
+      width: 120px;
+      height: 50px;
+      border-radius: 30px;
+      border: solid 3px #ffffff;
+      // background: #0059ff;
+      background: none;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 800;
+      transition: 0.3s;
     }
   }
 }

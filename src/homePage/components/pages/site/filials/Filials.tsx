@@ -14,112 +14,120 @@ const Filials = () => {
           <div className={scss.filials_text}>
             <h1>Филиалы по Бишкеку</h1>
           </div>
-          <div className={scss.block}>
-            <div className={scss.box}>
-              <div className={scss.box_text}>
-                <h1>Филиал 1</h1>
-                <p>+996 704 42 8002</p>
-              </div>
-              <div className={scss.user}>
-                <Image src={teacher} alt="" />
-
-                <div className={scss.user_text}>
-                  <p>Директор садика</p>
-                  <h1>
-                    Махмудов Алим <br /> Чынгызович
-                  </h1>
-                </div>
-              </div>
-              <div className={scss.user}>
-                <Image src={teacher} alt="" />
-                <div className={scss.user_text}>
-                  <p>Директор садика</p>
-                  <h1>
-                    Махмудов Алим <br /> Чынгызович
-                  </h1>
-                </div>
-              </div>
-              <div className={scss.gis}>
-                <div className={scss.addres}>
-                  <Image src={gis} alt="" />
-                  <h1>Ул.Салиева, 181</h1>
-                </div>
-                <div className={scss.watsapp}>
-                  <h2>
-                    <IoLogoWhatsapp />
-                  </h2>
-                </div>
-              </div>
+          <div className={scss.blok}>
+            <div className={scss.block_back}>
+              <div className={scss.box_back}></div>
+              <div className={scss.box_back}></div>
+              <div className={scss.box_back}></div>
             </div>
 
-            <div className={scss.box}>
-              <div className={scss.box_text}>
-                <h1>Филиал 2</h1>
-                <p>+996 704 42 8002</p>
-              </div>
-              <div className={scss.user}>
-                <Image src={teacher} alt="" />
-                <div className={scss.user_text}>
-                  <p>Директор садика</p>
-                  <h1>
-                    Махмудов Алим <br /> Чынгызович
-                  </h1>
+            <div className={scss.block}>
+              <div className={scss.box}>
+                <div className={scss.box_text}>
+                  <h1>Филиал 1</h1>
+                  <p>+996 704 42 8002</p>
                 </div>
-              </div>
-              <div className={scss.user}>
-                <Image src={teacher} alt="" />
-                <div className={scss.user_text}>
-                  <p>Директор садика</p>
-                  <h1>
-                    Махмудов Алим <br /> Чынгызович
-                  </h1>
-                </div>
-              </div>
-              <div className={scss.gis}>
-                <div className={scss.addres}>
-                  <Image src={gis} alt="" />
-                  <h1>Ул.Гагарина,135</h1>
-                </div>
-                <div className={scss.watsapp}>
-                  <h2>
-                    <IoLogoWhatsapp />
-                  </h2>
-                </div>
-              </div>
-            </div>
+                <div className={scss.user}>
+                  <Image src={teacher} alt="" />
 
-            <div className={scss.box}>
-              <div className={scss.box_text}>
-                <h1>Филиал 3</h1>
-                <p>+996 704 42 8002</p>
-              </div>
-              <div className={scss.user}>
-                <Image src={teacher} alt="" />
-                <div className={scss.user_text}>
-                  <p>Директор садика</p>
-                  <h1>
-                    Махмудов Алим <br /> Чынгызович
-                  </h1>
+                  <div className={scss.user_text}>
+                    <p>Директор садика</p>
+                    <h1>
+                      Махмудов Алим <br /> Чынгызович
+                    </h1>
+                  </div>
+                </div>
+                <div className={scss.user}>
+                  <Image src={teacher} alt="" />
+                  <div className={scss.user_text}>
+                    <p>Директор садика</p>
+                    <h1>
+                      Махмудов Алим <br /> Чынгызович
+                    </h1>
+                  </div>
+                </div>
+                <div className={scss.gis}>
+                  <div className={scss.addres}>
+                    <Image src={gis} alt="" />
+                    <h1>Ул.Салиева, 181</h1>
+                  </div>
+                  <div className={scss.watsapp}>
+                    <h2>
+                      <IoLogoWhatsapp />
+                    </h2>
+                  </div>
                 </div>
               </div>
-              <div className={scss.user}>
-                <Image src={teacher} alt="" />
-                <div className={scss.user_text}>
-                  <p>Директор садика</p>
-                  <h1>
-                    Махмудов Алим <br /> Чынгызович
-                  </h1>
+
+              <div className={scss.box}>
+                <div className={scss.box_text}>
+                  <h1>Филиал 2</h1>
+                  <p>+996 704 42 8002</p>
+                </div>
+                <div className={scss.user}>
+                  <Image src={teacher} alt="" />
+                  <div className={scss.user_text}>
+                    <p>Директор садика</p>
+                    <h1>
+                      Махмудов Алим <br /> Чынгызович
+                    </h1>
+                  </div>
+                </div>
+                <div className={scss.user}>
+                  <Image src={teacher} alt="" />
+                  <div className={scss.user_text}>
+                    <p>Директор садика</p>
+                    <h1>
+                      Махмудов Алим <br /> Чынгызович
+                    </h1>
+                  </div>
+                </div>
+                <div className={scss.gis}>
+                  <div className={scss.addres}>
+                    <Image src={gis} alt="" />
+                    <h1>Ул.Гагарина,135</h1>
+                  </div>
+                  <div className={scss.watsapp}>
+                    <h2>
+                      <IoLogoWhatsapp />
+                    </h2>
+                  </div>
                 </div>
               </div>
-              <div className={scss.gis}>
-                <div className={scss.addres}>
-                  <Image src={gis} alt="" />
-                  <h1>Ул.Садыгалиева,30</h1>
+
+              <div className={scss.box}>
+                <div className={scss.box_text}>
+                  <h1>Филиал 3</h1>
+                  <p>+996 704 42 8002</p>
                 </div>
-                <div className={scss.watsapp}>
-                  <h2>
-                    <IoLogoWhatsapp />
-                  </h2>
+                <div className={scss.user}>
+                  <Image src={teacher} alt="" />
+                  <div className={scss.user_text}>
+                    <p>Директор садика</p>
+                    <h1>
+                      Махмудов Алим <br /> Чынгызович
+                    </h1>
+                  </div>
+                </div>
+                <div className={scss.user}>
+                  <Image src={teacher} alt="" />
+                  <div className={scss.user_text}>
+                    <p>Директор садика</p>
+                    <h1>
+                      Махмудов Алим <br /> Чынгызович
+                    </h1>
+                  </div>
+                </div>
+                <div className={scss.gis}>
+                  <div className={scss.addres}>
+                    <Image src={gis} alt="" />
+                    <h1>Ул.Садыгалиева,30</h1>
+                  </div>
+                  <div className={scss.watsapp}>
+                    <h2>
+                      <IoLogoWhatsapp />
+                    </h2>
+                  </div>
                 </div>
               </div>
             </div>

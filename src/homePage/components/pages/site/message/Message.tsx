@@ -35,27 +35,35 @@ const Message = () => {
           <div className={scss.block}>
             <div className={scss.box}>
               <h1>Отправить сообщение</h1>
-              <div className={scss.mess}>
-                <input placeholder="Имя..." type="text" />
-                <input placeholder="+996" type="text" />
-                <textarea placeholder="Отзыв..."></textarea>
-                <button>отправить</button>
+              <div className={scss.mess_box}>
+                <div className={scss.mess_back}></div>
+                <div className={scss.mess}>
+                  <input placeholder="Имя..." type="text" />
+                  <input placeholder="+996" type="text" />
+                  <textarea placeholder="Отзыв..."></textarea>
+                  <button>отправить</button>
+                </div>
               </div>
             </div>
+
             <div className={scss.box2}>
               <div className={scss.buttons}>
                 {tabs.map((tab, index) => (
-                  <div
-                    key={index}
-                    className={scss.addres}
-                    onClick={() => setActiveTab(index)}
-                  >
-                    <Image src={gis} alt="" />
-                    <h1>{tab.title}</h1>
+                  <div key={index} className={scss.addres_box}>
+                    <div className={scss.addres_back}></div>
+                    <div
+                      key={index}
+                      className={scss.addres}
+                      onClick={() => setActiveTab(index)}
+                    >
+                      <Image src={gis} alt="" />
+                      <h1>{tab.title}</h1>
+                    </div>
                   </div>
                 ))}
               </div>
               <div className={scss.map}>
+                <div className={scss.iframe_back}></div>
                 <iframe src={tabs[activeTab].content}></iframe>
               </div>
             </div>

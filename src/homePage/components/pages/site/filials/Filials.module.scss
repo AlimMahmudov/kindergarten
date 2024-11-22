@@ -14,111 +14,134 @@
         color: #ffffff;
       }
     }
-    .block {
+    .blok {
       display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      .box {
-        background: #ffffff;
-        width: 400px;
-        height: 400px;
-        border-radius: 20px;
-        border: solid 3px #ffffff;
+      flex-direction: column;
+      align-items: center;
+      .block_back {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        padding: 20px;
-        transition: all 0.3s;
+        gap: 20px;
+        position: relative;
+        margin-top: 10px;
+        margin-left: 20px;
 
-        .box_text {
+        .box_back {
+          background: #001aff;
+          width: 380px;
+          height: 380px;
+          border-radius: 20px;
+        }
+      }
+
+      .block {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: absolute;
+
+        .box {
+          background: #ffffff;
+          width: 380px;
+          height: 380px;
+          border-radius: 20px;
+          border: solid 3px #ffffff;
           display: flex;
+          flex-direction: column;
           align-items: center;
           justify-content: space-between;
-          width: 100%;
+          padding: 20px;
+          transition: all 0.3s;
 
-          h1 {
-            font-size: 20px;
-            color: #0059ff;
-          }
+          .box_text {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
 
-          p {
-            font-size: 16px;
-            color: #0059ff;
-          }
-        }
-        .user {
-          background: #0059ff;
-          color: #ffffff;
-          padding: 10px;
-          display: flex;
-          align-items: center;
-          width: 100%;
-          border-radius: 10px;
-          gap: 30px;
+            h1 {
+              font-size: 20px;
+              color: #0059ff;
+            }
 
-          img {
-            border-radius: 50%;
-            width: 70px;
-            height: 70px;
-            background: #ffffff;
-            padding: 5px;
+            p {
+              font-size: 16px;
+              color: #0059ff;
+            }
           }
-          h1 {
-            font-size: 18px;
-          }
-          p {
-            font-size: 14px;
-          }
-        }
-        .gis {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          width: 100%;
-          gap: 10px;
-
-          img {
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            padding: 3px;
-            background: #ffffff;
-          }
-
-          .addres {
+          .user {
             background: #0059ff;
             color: #ffffff;
             padding: 10px;
             display: flex;
             align-items: center;
-            border-radius: 30px;
             width: 100%;
-            gap: 10px;
-          }
+            border-radius: 10px;
+            gap: 30px;
 
-          .watsapp {
-            h2 {
-              background: #0059ff;
-              color: #69ff2e;
-              padding: 12px;
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-              font-size: 44px;
+            img {
               border-radius: 50%;
+              width: 70px;
+              height: 70px;
+              background: #ffffff;
+              padding: 5px;
+            }
+            h1 {
+              font-size: 18px;
+            }
+            p {
+              font-size: 14px;
             }
           }
+          .gis {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            gap: 10px;
 
-          h1 {
-            font-size: 20px;
+            img {
+              border-radius: 50%;
+              width: 50px;
+              height: 50px;
+              padding: 3px;
+              background: #ffffff;
+            }
+
+            .addres {
+              background: #0059ff;
+              color: #ffffff;
+              padding: 10px;
+              display: flex;
+              align-items: center;
+              border-radius: 30px;
+              width: 100%;
+              gap: 10px;
+            }
+
+            .watsapp {
+              h2 {
+                background: #0059ff;
+                color: #69ff2e;
+                padding: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 44px;
+                border-radius: 50%;
+              }
+            }
+
+            h1 {
+              font-size: 20px;
+            }
           }
         }
       }
     }
-    .box:hover {
-      transform: scale(1.02);
-      transition: all 0.3s;
-    }
+
+    // .box:hover {
+    //   transform: scale(1.02);
+    //   transition: all 0.3s;
+    // }
   }
 }

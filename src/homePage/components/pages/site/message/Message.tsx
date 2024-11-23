@@ -32,9 +32,18 @@ const Message = () => {
             <div className={scss.box}>
               <h1>Отправьте сообщение</h1>
               <div className={scss.form}>
-                <input type="text" />
-                <input type="text" />
-                <textarea></textarea>
+                <div className={scss.inputs_box}>
+                  <h1>Имя:</h1>
+                  <input type="text" />
+                </div>
+                <div className={scss.inputs_box}>
+                  <h1>Номер:</h1>
+                  <input type="text" />
+                </div>
+                <div className={scss.inputs_box}>
+                  <h1>Отзыв:</h1>
+                  <textarea></textarea>
+                </div>
                 <button>отправить</button>
               </div>
             </div>
@@ -43,6 +52,16 @@ const Message = () => {
                 <iframe
                   src={tabs[activeTab].content}
                   title={tabs[activeTab].title}
+                  style={{
+                    borderColor:
+                      activeTab === 0
+                        ? "#ff006a"
+                        : activeTab === 1
+                        ? "#19d400"
+                        : activeTab === 2
+                        ? "#0000ff"
+                        : "#0000ff",
+                  }}
                 />
                 <h1>{tabs[activeTab].title}</h1>
               </div>

@@ -27,7 +27,9 @@ const Message = () => {
     <div id="message" className={scss.Message}>
       <div className="container">
         <div className={scss.message}>
-          <div className={scss.text}></div>
+          <div className={scss.text}>
+            <h1>Карта наших филиалов</h1>
+          </div>
           <div className={scss.block}>
             <div className={scss.box}>
               <h1>Отправьте сообщение</h1>

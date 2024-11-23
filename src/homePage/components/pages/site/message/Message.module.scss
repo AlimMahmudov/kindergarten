@@ -4,5 +4,96 @@
       h1 {
       }
     }
+    .block {
+      display: flex;
+      justify-content: space-between;
+      .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .form {
+          border-radius: 20px;
+          // background: #0066ff;
+          background: #ff68ae;
+          padding: 15px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+
+          input {
+            width: 400px;
+            height: 50px;
+            border-radius: 15px;
+            outline: none;
+            border: solid 3px #ff68ae;
+          }
+
+          button {
+            padding: 15px 40px;
+            border-radius: 15px;
+            background: #ff68ae;
+            color: #fff;
+            font-size: 18px;
+            border: none;
+          }
+
+          textarea {
+            width: 400px;
+            height: 100px;
+            border-radius: 15px;
+            outline: none;
+            border: solid 3px #ff68ae;
+          }
+        }
+      }
+      .box2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .iframes {
+          iframe {
+            border-radius: 20px;
+            width: 500px;
+            height: 300px;
+            border: solid 10px #0066ff;
+          }
+
+          h1 {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 10px;
+          }
+        }
+
+        .tabs {
+          display: flex;
+          gap: 20px;
+          margin-top: 20px;
+
+          .tabButton {
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #dcdcdc;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+
+            &.active {
+              background-color: #0066ff;
+              color: white;
+              font-weight: bold;
+              border-color: #0066ff;
+            }
+
+            &:hover {
+              background-color: #e0e0e0;
+            }
+          }
+        }
+      }
+    }
   }
 }

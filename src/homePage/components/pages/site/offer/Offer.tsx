@@ -64,7 +64,7 @@ const Offer = () => {
                 </p>
               </div>
             </div>
-
+            {/* 
             <div className={scss.block_back}>
               <div className={scss.box_back}></div>
               <div className={scss.box_back}></div>
@@ -72,7 +72,7 @@ const Offer = () => {
               <div className={scss.box_back}></div>
               <div className={scss.box_back}></div>
               <div className={scss.box_back}></div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

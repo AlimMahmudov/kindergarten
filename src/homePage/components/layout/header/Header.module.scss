@@ -2,6 +2,9 @@
   padding: 20px;
   background: #ff8800;
   font-family: sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
   .header {
     display: flex;
     justify-content: space-between;

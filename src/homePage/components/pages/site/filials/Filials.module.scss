@@ -14,126 +14,106 @@
         color: #ffffff;
       }
     }
-    .blok {
+
+    .block {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      .block_back {
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .box {
+        background: #ffffff;
+        width: 380px;
+        height: 380px;
+        border-radius: 20px;
+        border: solid 3px #ffffff;
         display: flex;
-        gap: 20px;
-        position: relative;
-        margin-top: 10px;
-        margin-left: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        transition: all 0.3s;
 
-        .box_back {
-          background: #001aff;
-          width: 380px;
-          height: 380px;
-          border-radius: 20px;
-        }
-      }
-
-      .block {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        position: absolute;
-
-        .box {
-          background: #ffffff;
-          width: 380px;
-          height: 380px;
-          border-radius: 20px;
-          border: solid 3px #ffffff;
+        .box_text {
           display: flex;
-          flex-direction: column;
           align-items: center;
           justify-content: space-between;
-          padding: 20px;
-          transition: all 0.3s;
+          width: 100%;
 
-          .box_text {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-
-            h1 {
-              font-size: 20px;
-              color: #0059ff;
-            }
-
-            p {
-              font-size: 16px;
-              color: #0059ff;
-            }
+          h1 {
+            font-size: 20px;
+            color: #0059ff;
           }
-          .user {
+
+          p {
+            font-size: 16px;
+            color: #0059ff;
+          }
+        }
+        .user {
+          background: #0059ff;
+          color: #ffffff;
+          padding: 10px;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          border-radius: 10px;
+          gap: 30px;
+
+          img {
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            background: #ffffff;
+            padding: 5px;
+          }
+          h1 {
+            font-size: 18px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+        .gis {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          gap: 10px;
+
+          img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            padding: 3px;
+            background: #ffffff;
+          }
+
+          .addres {
             background: #0059ff;
             color: #ffffff;
             padding: 10px;
             display: flex;
             align-items: center;
-            width: 100%;
-            border-radius: 10px;
-            gap: 30px;
-
-            img {
-              border-radius: 50%;
-              width: 70px;
-              height: 70px;
-              background: #ffffff;
-              padding: 5px;
-            }
-            h1 {
-              font-size: 18px;
-            }
-            p {
-              font-size: 14px;
-            }
-          }
-          .gis {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+            border-radius: 30px;
             width: 100%;
             gap: 10px;
+          }
 
-            img {
-              border-radius: 50%;
-              width: 50px;
-              height: 50px;
-              padding: 3px;
-              background: #ffffff;
-            }
-
-            .addres {
+          .watsapp {
+            h2 {
               background: #0059ff;
-              color: #ffffff;
-              padding: 10px;
+              color: #69ff2e;
+              padding: 12px;
               display: flex;
               align-items: center;
-              border-radius: 30px;
-              width: 100%;
-              gap: 10px;
+              justify-content: space-between;
+              font-size: 44px;
+              border-radius: 50%;
             }
+          }
 
-            .watsapp {
-              h2 {
-                background: #0059ff;
-                color: #69ff2e;
-                padding: 12px;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                font-size: 44px;
-                border-radius: 50%;
-              }
-            }
-
-            h1 {
-              font-size: 20px;
-            }
+          h1 {
+            font-size: 20px;
           }
         }
       }

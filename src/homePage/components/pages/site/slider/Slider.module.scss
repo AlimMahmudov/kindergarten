@@ -1,24 +1,47 @@
-.Slider {
-  width: 100%;
-  padding: 20px 0;
+.Sliders {
+  padding: 50px;
+  .sliders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; // Здесь изменено с 10px на 20px
+    .sliderContainer {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+    }
 
-  .swiper {
-    width: 100%;
-    height: 400px;
+    .button {
+      background-color: white;
+      border: 1px solid #d4d4d4;
+      border-radius: 50%;
+      padding: 10px;
+      cursor: pointer;
+      color: black;
+      font-size: 18px;
 
-    .swiper-pagination-bullet {
-      background-color: #fff;
-      opacity: 0.8;
-
-      &.swiper-pagination-bullet-active {
-        background-color: #007bff;
+      &:hover {
+        background-color: #f0f0f0;
       }
     }
-  }
 
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    .sliderBox {
+      padding: 10px;
+
+      .innerBox {
+        background: red;
+        border-radius: 10px;
+        padding: 16px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        .imageContainer {
+          position: relative;
+          border-radius: 10px;
+          overflow: hidden;
+          height: 200px;
+        }
+      }
+    }
   }
 }

@@ -1,4 +1,17 @@
 .Footer {
-  padding: 150px;
-  background: #0059ff;
+  // padding: 150px;
+  // background: #0059ff;
+  // background: url("../../../../shared/images/Снимок\ экрана\ от\ 2024-11-23\ 20-26-10.png")
+  //   no-repeat center/cover fixed;
+  // max-width: 100%;
+  // max-height: 10%;
+  // padding-top: 200px;
+  // padding-bottom: 10px;
+  background: #ff942f;
+
+  .footer {
+    background-image: url("../../../../shared/images/Снимок\ экрана\ от\ 2024-11-23\ 20-26-10.png");
+    background-size: cover;
+    padding: 100px;
+  }
 }

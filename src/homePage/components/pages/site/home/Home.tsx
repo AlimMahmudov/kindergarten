@@ -1,7 +1,7 @@
 import React from "react";
 import scss from "./Home.module.scss";
 // import img from "../../../../../shared/images/Benefits of creative art activities for kids _ Abrakadoodle.jpeg"
-// import img from "@/shared/images/Benefits of creative art activities for kids _ Abrakadoodle.jpeg"
+// import img from "@/shared/images/eje.webp";
 
 const Home = () => {
   return (

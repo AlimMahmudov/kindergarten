@@ -1,19 +1,25 @@
 import React from "react";
 import Home from "./site/home/Home";
 import Filials from "./site/filials/Filials";
-import Offer from "./site/offer/Offer";
+// import Offer from "./site/offer/Offer";
 import Message from "./site/message/Message";
-// import Slider from "./site/slider/Slider";
 import About from "./site/about/About";
+import Videos from "./site/videos/Videos";
+import Answer from "./site/answer/Answer";
+import Circle from "./site/circle/Circle";
+import Sliders from "./site/slider/Slider";
 
 const HomePage = () => {
   return (
     <div>
       <Home />
-      <Offer />
+      {/* <Offer /> */}
       <About />
+      <Circle />
+      <Sliders />
       <Filials />
-      {/* <Slider /> */}
+      <Videos />
+      <Answer />
       <Message />
     </div>
   );

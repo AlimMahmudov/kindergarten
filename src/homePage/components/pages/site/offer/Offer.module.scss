@@ -18,9 +18,10 @@
       .block {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
 
         gap: 20px;
-        position: absolute;
+        // position: absolute;
 
         .box {
           width: 350px;
@@ -57,7 +58,7 @@
       .block_back {
         display: flex;
         gap: 20px;
-        position: relative;
+        // position: relative;
 
         .box_back {
           width: 350px;

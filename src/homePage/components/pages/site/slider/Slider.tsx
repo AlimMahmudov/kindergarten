@@ -1,10 +1,10 @@
 "use client";
 import React, { useRef } from "react";
 import img1 from "@/shared/images/masha.jpg";
-import img2 from "@/shared/images/masha.jpg";
-import img3 from "@/shared/images/masha.jpg";
-import img4 from "@/shared/images/masha.jpg";
-import img5 from "@/shared/images/kind.jpg";
+import img2 from "@/shared/images/kind.jpg";
+import img3 from "@/shared/images/news2.jpeg";
+import img4 from "@/shared/images/news1.jpg";
+import img5 from "@/shared/images/news3.jpeg";
 import scss from "./Slider.module.scss";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
@@ -74,6 +74,9 @@ const Sliders = () => {
   return (
     <div className={scss.Sliders}>
       <div className="container">
+      <div className={scss.filials_text}>
+					<h1 data-aos="fade-left">Новости</h1>
+				</div>
         <div className={scss.sliders}>
           <button
             className={`${scss.button} ${scss.prev}`}
@@ -94,9 +97,11 @@ const Sliders = () => {
                         layout="fill"
                       />
                     </div>
+                    <div className={scss.text}>
                     <h1>{slide.title}</h1>
-                    <h2>{slide.disc}</h2>
+                    <h2>{slide.disc}Lorem ipsum dolor sit amet consectetur, adipisicing   </h2>
                     <p>{slide.data}</p>
+                    </div>
                   </div>
                 </div>
               ))}

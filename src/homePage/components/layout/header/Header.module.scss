@@ -6,7 +6,6 @@
   width: 100%;
   height: 70px;
   z-index: 999;
-  border-bottom: solid 2px rgb(255, 255, 255);
   transition: transform 0.3s ease, opacity 0.3s ease;
 
   &.hidden {
@@ -32,8 +31,8 @@
 
     .nav {
       display: flex;
-      gap: 20px;
-      width: 700px;
+      gap: 0px;
+      width: 500px;
 
       button {
         width: 100%;
@@ -53,7 +52,7 @@
     }
 
     button {
-      width: 120px;
+      width: 70px;
       height: 40px;
       border-radius: 30px;
       border: solid 3px #ffffff;

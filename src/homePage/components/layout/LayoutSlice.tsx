@@ -1,6 +1,6 @@
 import React, { FC, ReactNode } from "react";
-import Header from "./header/Header";
-import Footer from "./footer/Footer";
+// import Header from "./header/Header";
+// import Footer from "./footer/Footer";
 import scss from "./LayoutSlice.module.scss";
 interface LayoutSliceProps {
   children: ReactNode;

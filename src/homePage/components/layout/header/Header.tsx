@@ -76,7 +76,7 @@ const Header = () => {
               </button>
             ))}
           </div>
-          <button>Связаться</button>
+          <button>Связаться.</button>
         </div>
       </div>
     </header>

@@ -7,20 +7,24 @@ import Image from "next/image";
 
 const links = [
   {
-    name: "home",
+    name: "Главная",
     link: "home",
   },
   {
-    name: "About",
+    name: "О нас",
     link: "aboutus",
   },
 
   {
-    name: "Feed",
+    name: "Новости",
     link: "feed",
   },
   {
-    name: "Contacts",
+    name: "Филиалы",
+    link: "contacts",
+  },
+  {
+    name: "карта",
     link: "contacts",
   },
 ];
@@ -47,7 +51,7 @@ const Header = () => {
               </button>
             ))}
           </div>
-          <button>add</button>
+          <button>Связаться</button>
         </div>
       </div>
     </header>

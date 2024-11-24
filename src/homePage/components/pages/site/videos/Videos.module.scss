@@ -68,3 +68,33 @@
     }
   }
 }
+
+@media (max-width: 700px) {
+  .Sliders {
+    .filials_text {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .Sliders {
+    .filials_text {
+      h1 {
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .Sliders {
+    .filials_text {
+      h1 {
+        font-size: 26px;
+      }
+    }
+  }
+}

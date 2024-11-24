@@ -1,6 +1,5 @@
 .Sliders {
-	padding: 50px;
-
+  padding: 50px;
 
   .filials_text {
     display: flex;
@@ -8,48 +7,48 @@
     padding: 20px;
   }
 
-	.sliders {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 20px; // Здесь изменено с 10px на 20px
-		.sliderContainer {
-			position: relative;
-			display: flex;
-			flex-direction: column;
-			width: 90%;
-		}
+  .sliders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; // Здесь изменено с 10px на 20px
+    .sliderContainer {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+    }
 
-		.button {
-			background-color: white;
-			border: 1px solid #d4d4d4;
-			border-radius: 50%;
-			padding: 10px;
-			cursor: pointer;
-			color: black;
-			font-size: 18px;
+    .button {
+      background-color: white;
+      border: 1px solid #d4d4d4;
+      border-radius: 50%;
+      padding: 10px;
+      cursor: pointer;
+      color: black;
+      font-size: 18px;
 
-			&:hover {
-				background-color: #f0f0f0;
-			}
-		}
+      &:hover {
+        background-color: #f0f0f0;
+      }
+    }
 
-		.sliderBox {
-			padding: 10px;
+    .sliderBox {
+      padding: 10px;
 
-			.innerBox {
-				background: #2aa5f7;
-				border-radius: 10px;
-				// padding: 16px;
-				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      .innerBox {
+        background: #2aa5f7;
+        border-radius: 10px;
+        // padding: 16px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
-				.imageContainer {
-					position: relative;
-					border-radius: 10px 10px 0 0;
-					overflow: hidden;
-					height: 200px;
-				}
-				 .text{
+        .imageContainer {
+          position: relative;
+          border-radius: 10px 10px 0 0;
+          overflow: hidden;
+          height: 200px;
+        }
+        .text {
           padding: 10px;
           color: white;
           h1 {
@@ -66,8 +65,38 @@
             font-weight: 400;
             margin-top: 4px;
           }
-         }
-			}
-		}
-	}
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .Sliders {
+    .filials_text {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .Sliders {
+    .filials_text {
+      h1 {
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .Sliders {
+    .filials_text {
+      h1 {
+        font-size: 26px;
+      }
+    }
+  }
 }

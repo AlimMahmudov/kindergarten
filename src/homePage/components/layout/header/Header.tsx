@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import scss from "./Header.module.scss";
 import logo from "@/shared/images/Снимок экрана от 2024-11-20 08-22-24.png";
@@ -14,7 +14,6 @@ const links = [
     name: "О нас",
     link: "aboutus",
   },
-
   {
     name: "Новости",
     link: "feed",
@@ -30,11 +29,39 @@ const links = [
 ];
 
 const Header = () => {
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        // Hide header when scrolling down
+        setIsVisible(false);
+      } else {
+        // Show header when scrolling up
+        setIsVisible(true);
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
+
   return (
-    <header id={scss.Header}>
+    <header
+      id={scss.Header}
+      className={`${scss.header} ${isVisible ? scss.visible : scss.hidden}`}
+    >
       <div className="container">
         <div className={scss.header}>
-          <Image src={logo} alt="" />
+          <Image src={logo} alt="Logo" />
           <div className={scss.nav}>
             {links.map((item, index) => (
               <button key={index}>
@@ -51,7 +78,7 @@ const Header = () => {
               </button>
             ))}
           </div>
-          <button>Связаться</button>
+          <button>add</button>
         </div>
       </div>
     </header>

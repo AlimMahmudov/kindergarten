@@ -9,13 +9,13 @@
 
 		.offer_text {
       width: 400px;
-      height: 45px;
+      // height: 45px;
       text-align: center;
       overflow: hidden;
 			h1 {
         width: 100%;
 				font-size: 36px;
-				color: #0059ff;
+				color: #000000;
 			}
 		}
 		.blok {
@@ -37,6 +37,12 @@
           justify-content: start;
           transition: 0.1s;
           color: white;
+
+					&:hover {
+						background: #ff8800;
+						transition: 0.2s;
+						transform: scale(1.02);
+					}
 					 
 					h2 {
             font-size: 24px;
@@ -61,12 +67,7 @@
 			 
 		}
 
-		.box:hover {
-			transform: scale(1.02);
-			transition: all 0.2s;
-			background: #0059ff;
-			color: #ffffff;
-		}
+		 
 	}
 }
  

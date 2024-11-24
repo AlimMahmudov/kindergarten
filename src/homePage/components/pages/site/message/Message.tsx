@@ -28,44 +28,45 @@ const Message = () => {
       <div className="container">
         <div className={scss.message}>
           <div className={scss.text}>
-            <h1>Карта наших филиалов</h1>
+            <h1 data-aos="fade-up">Карта наших филиалов</h1>
           </div>
           <div className={scss.block}>
-            <div className={scss.box}>
+            <div className={scss.box} data-aos="fade-right">
               <h1>Отправьте сообщение</h1>
               <div className={scss.form}>
                 <div className={scss.inputs_box}>
                   <h1>Имя:</h1>
-                  <input type="text" />
+                  <input  placeholder="Введите имя" type="text" />
                 </div>
                 <div className={scss.inputs_box}>
                   <h1>Номер:</h1>
-                  <input type="text" />
+                  <input placeholder="Введите номер" type="text" />
                 </div>
                 <div className={scss.inputs_box}>
                   <h1>Отзыв:</h1>
-                  <textarea></textarea>
+                  <textarea  placeholder="Сообщение"></textarea>
                 </div>
                 <button>отправить</button>
               </div>
             </div>
-            <div className={scss.box2}>
+            <div className={scss.box2} data-aos="fade-left">
               <div className={scss.iframes}>
+              <h1>{tabs[activeTab].title}</h1>
                 <iframe
                   src={tabs[activeTab].content}
                   title={tabs[activeTab].title}
                   style={{
                     borderColor:
                       activeTab === 0
-                        ? "#ff006a"
+                        ? "#2aa5f7"
                         : activeTab === 1
-                        ? "#19d400"
+                        ? "#56ee28"
                         : activeTab === 2
-                        ? "#0000ff"
-                        : "#0000ff",
+                        ? "#ff3838"
+                        : "#ff3838",
                   }}
                 />
-                <h1>{tabs[activeTab].title}</h1>
+                
               </div>
               <div className={scss.tabs}>
                 {tabs.map((el, index) => (

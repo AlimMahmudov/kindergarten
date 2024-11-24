@@ -1,7 +1,9 @@
 .Filials {
-  background: #7197ff;
+  background: #2aa5f7;
   padding: 100px;
   font-family: sans-serif;
+  padding-bottom: 250px;
+  
 
   .filials {
     display: flex;
@@ -9,12 +11,18 @@
     align-items: center;
     gap: 60px;
     .filials_text {
+      width: 400px;
+      height: 45px;
+      text-align: center;
+      overflow: hidden;
       h1 {
-        font-size: 36px;
+        width: 100%;
+				font-size: 36px;
         color: #ffffff;
       }
     }
 
+     
     .block {
       display: flex;
       flex-wrap: wrap;
@@ -24,7 +32,7 @@
         background: #ffffff;
         width: 380px;
         height: 380px;
-        border-radius: 20px;
+        border-radius: 10px;
         border: solid 3px #ffffff;
         display: flex;
         flex-direction: column;
@@ -41,16 +49,16 @@
 
           h1 {
             font-size: 20px;
-            color: #0059ff;
+            color: #2aa5f7;
           }
 
           p {
             font-size: 16px;
-            color: #0059ff;
+            color: #2aa5f7;
           }
         }
         .user {
-          background: #0059ff;
+          background: #2aa5f7;
           color: #ffffff;
           padding: 10px;
           display: flex;
@@ -89,7 +97,7 @@
           }
 
           .addres {
-            background: #0059ff;
+            background: #2aa5f7;
             color: #ffffff;
             padding: 10px;
             display: flex;
@@ -101,8 +109,8 @@
 
           .watsapp {
             h2 {
-              background: #0059ff;
-              color: #69ff2e;
+              background: #2aa5f7;
+              color: #ffffff;
               padding: 12px;
               display: flex;
               align-items: center;
@@ -119,9 +127,14 @@
       }
     }
 
-    // .box:hover {
-    //   transform: scale(1.02);
-    //   transition: all 0.3s;
-    // }
+    
   }
+}
+
+
+.bulut {
+  position: absolute;
+  margin-top: -250px;
+  width: 100%;
+  // background: rgba(255, 0, 0, 0.459);
 }

@@ -1,10 +1,13 @@
 .Home {
-  background: url("../../../../../shared/images/masha.jpg") no-repeat
-    center/cover fixed;
+  background:
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  
+    url("../../../../../shared/images/masha.jpg") no-repeat center/cover fixed;  
+
+    
   max-width: 100%;
-  max-height: 100%;
+  max-height: 800px;
   padding-top: 300px;
-  padding-bottom: 300px;
+  padding-bottom: 300px;  
 
   .text {
     display: flex;
@@ -16,18 +19,23 @@
     h1 {
       font-size: 36px;
       font-weight: 700;
+      color: white;
     }
 
     p {
       font-size: 22px;
-      font-weight: 700;
+      font-weight: 500;
       width: 1000px;
+      color: white;
+
     }
 
     button {
       width: 300px;
       height: 50px;
       border-radius: 15px;
+      color: white;
+
       font-size: 22px;
       border: none;
       background: #ff8800;
@@ -39,4 +47,11 @@
       }
     }
   }
+}
+
+.bulut {
+  position: absolute;
+  margin-top: -250px;
+  width: 100%;
+  // background: rgba(255, 0, 0, 0.459);
 }

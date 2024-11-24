@@ -72,11 +72,11 @@ const Sliders = () => {
   ];
 
   return (
-    <div className={scss.Sliders}>
+    <div id="slider" className={scss.Sliders}>
       <div className="container">
-      <div className={scss.filials_text}>
-					<h1 data-aos="fade-left">Новости</h1>
-				</div>
+        <div className={scss.filials_text}>
+          <h1 data-aos="fade-left">Новости</h1>
+        </div>
         <div className={scss.sliders}>
           <button
             className={`${scss.button} ${scss.prev}`}
@@ -98,9 +98,12 @@ const Sliders = () => {
                       />
                     </div>
                     <div className={scss.text}>
-                    <h1>{slide.title}</h1>
-                    <h2>{slide.disc}Lorem ipsum dolor sit amet consectetur, adipisicing   </h2>
-                    <p>{slide.data}</p>
+                      <h1>{slide.title}</h1>
+                      <h2>
+                        {slide.disc}Lorem ipsum dolor sit amet consectetur,
+                        adipisicing{" "}
+                      </h2>
+                      <p>{slide.data}</p>
                     </div>
                   </div>
                 </div>

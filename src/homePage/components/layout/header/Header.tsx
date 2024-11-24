@@ -12,19 +12,19 @@ const links = [
   },
   {
     name: "О нас",
-    link: "aboutus",
+    link: "about",
   },
   {
     name: "Новости",
-    link: "feed",
+    link: "slider",
   },
   {
     name: "Филиалы",
-    link: "contacts",
+    link: "filials",
   },
   {
     name: "карта",
-    link: "contacts",
+    link: "message",
   },
 ];
 
@@ -37,10 +37,8 @@ const Header = () => {
       const currentScrollY = window.scrollY;
 
       if (currentScrollY > lastScrollY && currentScrollY > 100) {
-        // Hide header when scrolling down
         setIsVisible(false);
       } else {
-        // Show header when scrolling up
         setIsVisible(true);
       }
 
@@ -71,14 +69,14 @@ const Header = () => {
                   spy={true}
                   smooth={true}
                   offset={0}
-                  duration={700}
+                  duration={900}
                 >
                   {item.name}
                 </ScrollLink>
               </button>
             ))}
           </div>
-          <button>add</button>
+          <button>Связаться</button>
         </div>
       </div>
     </header>

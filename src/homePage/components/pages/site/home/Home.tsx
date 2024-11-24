@@ -21,9 +21,9 @@ const Home = () => {
       const currentScrollY = window.scrollY;
 
       if (currentScrollY > lastScrollY && currentScrollY > 100) {
-        setIsVisible(false);
+        setIsVisible(false); // Скрываем, если скроллим вниз
       } else {
-        setIsVisible(true);
+        setIsVisible(true); // Показываем, если скроллим вверх
       }
 
       setLastScrollY(currentScrollY);
@@ -35,9 +35,10 @@ const Home = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [lastScrollY]);
+
   return (
     <>
-      <div id="home" className={scss.Home}>
+      <div id="home" className={`${scss.Home} ${isVisible ? "" : scss.hidden}`}>
         <div className="container">
           <div className={scss.home}>
             <div className={scss.text} data-aos="zoom-in">

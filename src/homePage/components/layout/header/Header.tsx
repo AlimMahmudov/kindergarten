@@ -78,6 +78,7 @@ const Header = () => {
           </div>
           <button>Связаться.</button>
         </div>
+        =
       </div>
     </header>
   );

@@ -9,9 +9,9 @@ interface LayoutSliceProps {
 const LayoutSlice: FC<LayoutSliceProps> = ({ children }) => {
   return (
     <div className={scss.Layout}>
-      <Header />
+      {/* <Header /> */}
       <main>{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

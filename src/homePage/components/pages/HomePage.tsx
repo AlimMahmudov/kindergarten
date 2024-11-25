@@ -4,7 +4,7 @@ import Home from "./site/home/Home";
 import Filials from "./site/filials/Filials";
 import Offer from "./site/offer/Offer";
 import Message from "./site/message/Message";
-// import About from "./site/about/About";
+import About from "./site/about/About";
 import Videos from "./site/videos/Videos";
 // import Answer from "./site/answer/Answer";
 import Sliders from "./site/slider/Slider";
@@ -23,7 +23,7 @@ const HomePage = () => {
     <div>
       <Home />
       <Offer />
-      {/* <About /> */}
+      <About />
       <Sliders />
       <Filials />
       <Videos />

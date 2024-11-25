@@ -91,10 +91,14 @@
 
 @media (max-width: 500px) {
   .Sliders {
+    padding: 10px;
     .filials_text {
       h1 {
         font-size: 26px;
       }
+    }
+    .sliders {
+      gap: 0px;
     }
   }
 }

@@ -46,7 +46,7 @@ const About = () => {
         <div className={scss.about}>
           <div data-aos="fade-up" className={scss.text}>
             <h1>О нашей садике</h1>
-            <p>УМНАЯ ПЛАНЕТА – частная общеобразовательный детский сад.</p>
+            <p>ДЕТСКИЙ САД – частная общеобразовательный детский сад.</p>
 
             {links.map((item, index) => (
               <button key={index}>
